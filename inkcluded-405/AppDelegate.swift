@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         let apiCalls = APICalls.sharedInstance
         
-        if url.scheme?.lowercased() == "inkcluded-405" {
+        if url.scheme?.lowercased() == "stylofork" {
             return (apiCalls.client.resume(with: url as URL))
         }
         else {

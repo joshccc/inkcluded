@@ -78,7 +78,7 @@ class APICalls {
     
     private init() {
         client = MSClient(
-            applicationURLString:"https://penmessageapp.azurewebsites.net"
+            applicationURLString:"https://stylo-fork.azurewebsites.net"
         )
         
         let azsAccount : CloudStorageAccountProtocol = CloudStorageAccount()

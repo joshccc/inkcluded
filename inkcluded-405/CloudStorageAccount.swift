@@ -14,7 +14,7 @@ class CloudStorageAccount: CloudStorageAccountProtocol {
     
     required init(){
         do {
-            try azsAccount = AZSCloudStorageAccount(fromConnectionString: "DefaultEndpointsProtocol=https;AccountName=penmessagestorage;AccountKey=BV5WR1Km404XR6K8F/KxOKuAyTw0utckHVZvOqW/LO5+cUTNVdZ9hShhBS/oOR7VAjKaSlt9+nBVVLXdvRpCgQ==")
+            try azsAccount = AZSCloudStorageAccount(fromConnectionString: "DefaultEndpointsProtocol=https;AccountName=stylofork;AccountKey=CPjRfhP3Xy5S2ojQwQAw628wlaNwokgwmIhdNQxL2K2esSDqYcSlBhLkYeaVyGQEvviBdYYPOClI6FFUZ4kZXA==")
         }
         catch {
             print("unable to create azure storage account")
